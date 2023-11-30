@@ -25,13 +25,13 @@ class Result
     {
         for (int i = 1; i <= n; i++)
         {
-            for (int j = n; j >= i; j--)
+            for (int j = n; j >= 1; j--)
             {
                 if (j > i)
                     Console.Write(" ");
                 else
                     Console.Write("#");
-            }
+            }   
             Console.WriteLine();
         }
     }
